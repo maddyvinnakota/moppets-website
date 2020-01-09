@@ -4,22 +4,22 @@ import { tech, designTools } from './skillsData'
 
 import '../assets/css/components/skills.scss'
 
-const createSkillIndicators = elem => {
-  const MAX_SKILL_LEVEL = 6
-  const skillLevel = elem.skillLevel
-  const skillIndicators = []
-
-  for (let i = 1; i <= MAX_SKILL_LEVEL; i++) {
-    if (i <= skillLevel) {
-      // current skill level...
-      skillIndicators.push(<div className={'skilled'} key={i} />)
-    } else {
-      // still to learn...
-      skillIndicators.push(<div key={i} />)
-    }
-  }
-  return skillIndicators
-}
+// const createSkillIndicators = elem => {
+//   const MAX_SKILL_LEVEL = 6
+//   const skillLevel = elem.skillLevel
+//   const skillIndicators = []
+//
+//   for (let i = 1; i <= MAX_SKILL_LEVEL; i++) {
+//     if (i <= skillLevel) {
+//       // current skill level...
+//       skillIndicators.push(<div className={'skilled'} key={i} />)
+//     } else {
+//       // still to learn...
+//       skillIndicators.push(<div key={i} />)
+//     }
+//   }
+//   return skillIndicators
+// }
 
 const Skills = () => (
   <div className={'skills'}>

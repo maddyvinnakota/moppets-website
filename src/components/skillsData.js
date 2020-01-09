@@ -1,4 +1,3 @@
-let counter = 1
 
 export const tech = ["React", "JavaScript", "Drupal", "HTML5", 'CSS3', "SASS", "Node.js",
   "Express", "MongoDB/Mongoose", "Ava", "Docker", "Heroku", "ESLint", "Husky", "Prettier"]
