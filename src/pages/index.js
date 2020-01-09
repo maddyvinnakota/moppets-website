@@ -13,7 +13,7 @@ const homeData = {
   text: (
     <>
       <p>
-        I'm a Javascript/React web developer and graphic designer, who enjoys
+        I'm a Javascript/React developer and graphic designer, who enjoys
         turning complex problems into simple, beautiful and intuitive designs.
       </p>
       <p>
