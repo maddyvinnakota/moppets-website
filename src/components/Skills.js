@@ -26,17 +26,14 @@ const Skills = () => (
     {/*  T E C H  */}
     <section className="skill">
       <aside className="sidebar-left">
-        <h3>Tech</h3>
+        <h3>Tech Stack</h3>
       </aside>
       <div className="container-full-width">
         <ul className={'tech-stack stack'}>
-          {tech.map(elem => {
-            const skillIndicators = createSkillIndicators(elem)
-
+          {tech.map((elem, index) => {
             return (
-              <li key={elem.id} className={'container-third-width'}>
+              <li key={elem.name + index} className={'container-third-width'}>
                 {elem.name}
-                <span className={'skill-bubbles'}>{skillIndicators}</span>
               </li>
             )
           })}
@@ -52,12 +49,9 @@ const Skills = () => (
       <div className="container-full-width">
         <ul className={'design-tools-stack stack'}>
           {designTools.map(elem => {
-            const skillIndicators = createSkillIndicators(elem)
-
             return (
               <li key={elem.id} className={'container-third-width'}>
                 {elem.name}
-                <span className={'skill-bubbles'}>{skillIndicators}</span>
               </li>
             )
           })}
