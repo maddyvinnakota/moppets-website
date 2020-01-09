@@ -1,13 +1,47 @@
 import React from 'react'
 
+
 export const cvData = [
+  {
+    id: 'CVLine-01',
+    time: {
+      range: 'Oct - Dec 2019',
+      place: 'Berlin',
+    },
+    title: 'Javascript Crash Course',
+    description: (
+      <>
+        <h4>Course Project: <a href={'http://tem-frontend.herokuapp.com'}>The Eternal Menu</a></h4>
+        <p>
+          The course by <a href={'http://wtmberlin.com'}>WTM Berlin</a>{' '}
+          is designed for introducing JavaScript and Node.js as a platform for backend applications. In its current
+          stage my project is a Node.js application using the following technologies:
+        </p>
+        <ul>
+          <li>
+            implements RESTful APIs with Express.js
+          </li>
+          <li>
+            data is stored in a MongoDB Datastore, the object modeling is done in Mongoose
+          </li>
+          <li>
+            unit testing is done using the test runner Ava
+          </li>
+          <li>
+            the frontend is built in React.js, the App is deployed with Docker on Heroku
+          </li>
+        </ul>
+        <h4>Tech Stack:</h4>React, JS, Node.js, Express.js, MongoDB, Mongoose, Ava, Docker, Husky, ESLint, Prettier
+      </>
+    ),
+  },
   {
     id: 'CVLine-1',
     time: {
       range: '2018 - now',
       place: 'Berlin',
     },
-    title: 'Freelance Front End Developer and Designer',
+    title: 'Freelance Front End Developer and Graphic Designer',
     description: (
       <>
         <h4>Kunstmatrix Technologies GmbH</h4>
@@ -28,7 +62,7 @@ export const cvData = [
           </li>
           <li>screen & user interface design, illustrations and icons</li>
         </ul>
-        <h4>Tech Stack:</h4>React, JS, HTML5, CSS/SASS/Flexbox, and Drupal
+        <h4>Tech Stack:</h4>React, JS, HTML5, CSS & SASS, Drupal, Husky, ESLint, Prettier
       </>
     ),
   },
