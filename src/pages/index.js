@@ -18,8 +18,10 @@ const homeData = {
         beautiful and intuitive designs.
       </p>
       <p>
-        Currently I enjoy working with the following technologies: React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS,
-        Node.js, Express, MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
+        Currently I enjoy working with the following technologies:
+        <br/>
+        <strong>React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS,
+        Node.js, Express, MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier</strong>
       </p>
     </>
   ),
