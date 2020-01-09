@@ -3,7 +3,6 @@
 @import '../abstracts/mixins';
 
 .skill {
-  //@include border-layout-solid;
   display: flex;
   align-items: flex-start;
   padding-bottom: $bottom-margin-mini;
@@ -11,6 +10,9 @@
 
   .sidebar-left {
     margin-right: $sidebar-margin-right;
+  }
+
+  p {
   }
 
   ul {

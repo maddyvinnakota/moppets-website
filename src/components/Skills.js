@@ -1,6 +1,6 @@
 // import PropTypes from "prop-types"
 import React from 'react'
-import { tech, designTools } from './skillsData'
+// import { tech, designTools } from './skillsData'
 
 import '../assets/css/components/skills.scss'
 
@@ -29,44 +29,44 @@ const Skills = () => (
         <h3>Tech Stack</h3>
       </aside>
       <div className="container-full-width">
-        <ul className={'tech-stack stack'}>
-          {tech.map((elem, index) => {
-            return (
-              <li key={elem.name + index} className={'container-third-width'}>
-                {elem.name}
-              </li>
-            )
-          })}
-        </ul>
+        <p>
+          React, JavaScript, Drupal, HTML5, CSS3, SASS, Node.js, Express, MongoDB/Mongoose, Ava, Docker, Heroku,
+          ESLint, Husky, Prettier
+        </p>
+        {/*<ul className={'tech-stack stack'}>*/}
+        {/*  {tech.map((elem, index) => {*/}
+        {/*    return (*/}
+        {/*      <li key={elem.name + index} className={'container-third-width'}>*/}
+        {/*        {elem.name}*/}
+        {/*      </li>*/}
+        {/*    )*/}
+        {/*  })}*/}
+        {/*</ul>*/}
       </div>
     </section>
-
+    
     {/*  D E S I G N  T O O L S  */}
     <section className="skill">
       <aside className="sidebar-left">
         <h3 className="design-tools">Design Tools</h3>
       </aside>
       <div className="container-full-width">
-        <ul className={'design-tools-stack stack'}>
-          {designTools.map(elem => {
-            return (
-              <li key={elem.id} className={'container-third-width'}>
-                {elem.name}
-              </li>
-            )
-          })}
-        </ul>
+        <p>
+          Adobe XD, Illustrator, InDesign, Photoshop
+        </p>
+        {/*<ul className={'design-tools-stack stack'}>*/}
+        {/*  {designTools.map( elem => {*/}
+        {/*    return (*/}
+        {/*      <li key={elem.id} className={'container-third-width'}>*/}
+        {/*        {elem.name}*/}
+        {/*      </li>*/}
+        {/*    )*/}
+        {/*  } )}*/}
+        {/*</ul>*/}
       </div>
     </section>
   </div>
 )
 
-// Skills.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-//
-// Skills.defaultProps = {
-//   siteTitle: `my site`,
-// }
 
 export default Skills
