@@ -2,7 +2,7 @@
   "name": "moppets-website",
   "private": true,
   "description": "A portfolio page",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "author": "Kerstin Dengl <kerstin.dengl@gmail.com>",
   "scripts": {
     "build": "gatsby build",
