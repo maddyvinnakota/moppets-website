@@ -8,18 +8,18 @@ import { HiBubble } from '../assets/images/branding/svgs'
 import oranges from '../assets/images/oranges.png'
 import '../assets/css/pages/index.scss'
 
+
 const homeData = {
-  img: <HiBubble />,
+  img: <HiBubble/>,
   text: (
     <>
       <p>
-        I'm a frontend developer and graphic designer, who enjoys turning
-        complex problems into simple, beautiful and intuitive designs.
+        I'm a Javascript/React web developer and graphic designer, who enjoys turning complex problems into simple,
+        beautiful and intuitive designs.
       </p>
       <p>
-        I can help you in your project: from creating UI mockups, graphical
-        assets, wireframes, click-dummies for testing, and fixing design issues,
-        to front-end web development and building full sites.
+        Currently I enjoy working with the following technologies: React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS,
+        Node.js, Express, MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
       </p>
     </>
   ),
@@ -27,9 +27,9 @@ const homeData = {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <BannerRegion data={homeData} />
-    <Portfolio />
+    <SEO title="Home"/>
+    <BannerRegion data={homeData}/>
+    <Portfolio/>
     <div className={'container-two-thirds-width image-container'}>
       <img
         className={'imgOranges'}
