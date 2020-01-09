@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export const cvData = [
   {
     id: 'CVLine-01',
@@ -11,27 +10,30 @@ export const cvData = [
     title: 'Javascript Crash Course',
     description: (
       <>
-        <h4>Course Project: <a href={'http://tem-frontend.herokuapp.com'}>The Eternal Menu</a></h4>
+        <h4>
+          Course Project:{' '}
+          <a href={'http://tem-frontend.herokuapp.com'}>The Eternal Menu</a>
+        </h4>
         <p>
-          The course by <a href={'http://wtmberlin.com'}>WTM Berlin</a>{' '}
-          is designed for introducing JavaScript and Node.js as a platform for backend applications. In its current
-          stage my project is a Node.js application using the following technologies:
+          The course by <a href={'http://wtmberlin.com'}>WTM Berlin</a> is
+          designed for introducing JavaScript and Node.js as a platform for
+          backend applications. In its current stage my project is a Node.js
+          application using the following technologies:
         </p>
         <ul>
+          <li>implements RESTful APIs with Express.js</li>
           <li>
-            implements RESTful APIs with Express.js
+            data is stored in a MongoDB Datastore, the object modeling is done
+            in Mongoose
           </li>
+          <li>unit testing is done using the test runner Ava</li>
           <li>
-            data is stored in a MongoDB Datastore, the object modeling is done in Mongoose
-          </li>
-          <li>
-            unit testing is done using the test runner Ava
-          </li>
-          <li>
-            the frontend is built in React.js, the App is deployed with Docker on Heroku
+            the frontend is built in React.js, the App is deployed with Docker
+            on Heroku
           </li>
         </ul>
-        <h4>Tech Stack:</h4>React, JS, Node.js, Express.js, MongoDB, Mongoose, Ava, Docker, Husky, ESLint, Prettier
+        <h4>Tech Stack:</h4>React, JS, Node.js, Express.js, MongoDB, Mongoose,
+        Ava, Docker, Husky, ESLint, Prettier
       </>
     ),
   },
@@ -62,7 +64,8 @@ export const cvData = [
           </li>
           <li>screen & user interface design, illustrations and icons</li>
         </ul>
-        <h4>Tech Stack:</h4>React, JS, HTML5, CSS & SASS, Drupal, Husky, ESLint, Prettier
+        <h4>Tech Stack:</h4>React, JS, HTML5, CSS & SASS, Drupal, Husky, ESLint,
+        Prettier
       </>
     ),
   },

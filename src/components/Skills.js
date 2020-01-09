@@ -30,8 +30,8 @@ const Skills = () => (
       </aside>
       <div className="container-full-width">
         <p>
-          React, JavaScript, Drupal, HTML5, CSS3, SASS, Node.js, Express, MongoDB/Mongoose, Ava, Docker, Heroku,
-          ESLint, Husky, Prettier
+          React, JavaScript, Drupal, HTML5, CSS3, SASS, Node.js, Express,
+          MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
         </p>
         {/*<ul className={'tech-stack stack'}>*/}
         {/*  {tech.map((elem, index) => {*/}
@@ -44,16 +44,14 @@ const Skills = () => (
         {/*</ul>*/}
       </div>
     </section>
-    
+
     {/*  D E S I G N  T O O L S  */}
     <section className="skill">
       <aside className="sidebar-left">
         <h3 className="design-tools">Design Tools</h3>
       </aside>
       <div className="container-full-width">
-        <p>
-          Adobe XD, Illustrator, InDesign, Photoshop
-        </p>
+        <p>Adobe XD, Illustrator, InDesign, Photoshop</p>
         {/*<ul className={'design-tools-stack stack'}>*/}
         {/*  {designTools.map( elem => {*/}
         {/*    return (*/}
@@ -67,6 +65,5 @@ const Skills = () => (
     </section>
   </div>
 )
-
 
 export default Skills

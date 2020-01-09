@@ -6,21 +6,22 @@ import illustrationPDF from '../assets/pdf/2019_Portfolio_illustration.pdf'
 import infographicsPDF from '../assets/pdf/2019_Portfolio_Infographics.pdf'
 import '../assets/css/components/portfolio.scss'
 
-
 const Portfolio = () => (
   <>
     <section className="recent-work">
       <aside className="sidebar-left">
         <h2>Client Work</h2>
       </aside>
-      
+
       <div className="container-half-width">
         <ul className="clients">
           <li>
             <a href="https://www.neumann-hug.com">Neumann Hug Collection</a>
           </li>
           <li>
-            <a href="https://www.autowolf-ahrensfelde.de/home">Autowolf Ahrensfelde</a>
+            <a href="https://www.autowolf-ahrensfelde.de/home">
+              Autowolf Ahrensfelde
+            </a>
           </li>
           <li>
             <a href="https://www.moerbeck.de">Kevin van Moerbeck</a>
@@ -28,12 +29,14 @@ const Portfolio = () => (
         </ul>
       </div>
     </section>
-    
+
     <section className="recent-work">
       <aside className="sidebar-left">
-        <h2 className={'project'}><span>Personal</span> Project</h2>
+        <h2 className={'project'}>
+          <span>Personal</span> Project
+        </h2>
       </aside>
-      
+
       <div className="container-half-width">
         <ul className="clients">
           <li>
@@ -42,13 +45,13 @@ const Portfolio = () => (
         </ul>
       </div>
     </section>
-    
+
     <section className={'portfolios'}>
       <aside className="sidebar-left">
         <h2>Port</h2>
         <h2>folio</h2>
       </aside>
-      
+
       <div className="container">
         <div className="container-third-width download-button">
           <a
@@ -60,7 +63,7 @@ const Portfolio = () => (
             DOWNLOAD
           </a>
         </div>
-        
+
         <div className="container-third-width download-button">
           <a
             className="download-portfolio"
@@ -71,7 +74,7 @@ const Portfolio = () => (
             DOWNLOAD
           </a>
         </div>
-        
+
         <div className="container-third-width download-button">
           <a
             className="download-portfolio"
