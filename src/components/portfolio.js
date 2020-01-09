@@ -31,7 +31,7 @@ const Portfolio = () => (
     
     <section className="recent-work">
       <aside className="sidebar-left">
-        <h2>Personal Project</h2>
+        <h2 className={'project'}>Personal Project</h2>
       </aside>
       
       <div className="container-half-width">
