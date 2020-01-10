@@ -18,8 +18,7 @@ export const cvData = [
         <p>
           The course by <a href={'http://wtmberlin.com'}>WTM Berlin</a> is
           designed for introducing JavaScript and Node.js as a platform for
-          backend applications. In its current stage my project is a Node.js
-          application using the following technologies:
+          backend applications. In its current stage my project is using the following technologies:
         </p>
         <ul>
           <li>implements RESTful APIs with Express.js</li>
