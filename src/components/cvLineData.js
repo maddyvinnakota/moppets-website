@@ -32,7 +32,7 @@ export const cvData = [
             on Heroku
           </li>
         </ul>
-        <h4>Tech Stack:</h4>React, JavaScript, CSS, SASS, Parcel, Nodejs, Express, MongoDB, Axios, REST APIs, Ava
+        <h4>Tech Stack:</h4>React, JavaScript, CSS, SASS, Parcel, Node, Express, MongoDB, Axios, REST APIs, Ava
         (testing), Docker, Heroku, ESLint, Husky, Prettier
       </>
     ),

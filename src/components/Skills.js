@@ -30,7 +30,7 @@ const Skills = () => (
       </aside>
       <div className="container-full-width">
         <p>
-          React, JavaScript, Drupal, HTML5, CSS3, SASS, Node.js, Express,
+          React, JavaScript, Drupal, HTML5, CSS3, SASS, Node, Express,
           MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
         </p>
         {/*<ul className={'tech-stack stack'}>*/}
