@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export const cvData = [
   {
     id: 'CVLine-01',
@@ -32,8 +33,8 @@ export const cvData = [
             on Heroku
           </li>
         </ul>
-        <h4>Tech Stack:</h4>React, JS, Node.js, Express.js, MongoDB, Mongoose,
-        Ava, Docker, Husky, ESLint, Prettier
+        <h4>Tech Stack:</h4>React, JavaScript, CSS, SASS, Parcel, Nodejs, Express, MongoDB, Axios, REST APIs, Ava
+        (testing), Docker, Heroku, ESLint, Husky, Prettier
       </>
     ),
   },

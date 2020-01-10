@@ -20,7 +20,7 @@ const homeData = {
         Currently I enjoy working with the following technologies:
         <br />
         <strong>
-          React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS, Node.js, Express,
+          React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS, Node, Express,
           MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
         </strong>
       </p>
