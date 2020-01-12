@@ -8,7 +8,7 @@ import CVLine from '../components/CVLine'
 import Skills from '../components/Skills'
 import { Portrait } from '../assets/images/branding/svgs'
 import { cvData } from '../components/cvLineData'
-import cvPDF from '../assets/pdf/2019_CV.pdf'
+import cvPDF from '../assets/pdf/2020_CV.pdf'
 import strawberries from '../assets/images/strawberries.png'
 import '../assets/css/pages/about.scss'
 
