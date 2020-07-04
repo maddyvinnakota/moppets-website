@@ -25,13 +25,13 @@ const Contact = () => (
         <div className={'container-two-thirds-width'}>
           <ul className={'social-icons'}>
             <li className="mailto">
-              <a href="mailto:kerstin.dengl@gmail.com">
+              <a href="mailto:mailtomadi@gmail.com">
                 <Mail />
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/kerstin-dengl-ba59205/"
+                href="https://www.linkedin.com/in/madhava-vinnakota/"
                 target={'_blank'}
                 rel="noopener noreferrer"
               >
@@ -60,7 +60,7 @@ const Contact = () => (
         <img
           className={'imgPineapple'}
           src={Pineapple}
-          alt="Senorita Pinapple"
+          alt="Madhava Vinnakota"
           aria-hidden
         />
       </div>
