@@ -13,15 +13,14 @@ const homeData = {
   text: (
     <>
       <p>
-        I'm a Javascript/React developer and graphic designer, who enjoys
-        turning complex problems into simple, beautiful and intuitive designs.
+        I'm a Java developer.
       </p>
       <p>
-        Currently I enjoy working with the following technologies:
+        Currently I enjoy working with the following technologies/frameworks/tools/methodologies:
         <br />
         <strong>
-          React, JavaScript ES6+, Drupal, HTML5, CSS3, SASS, Node, Express,
-          MongoDB/Mongoose, Ava, Docker, Heroku, ESLint, Husky, Prettier
+          ava8, Spring, Hibernate, Oracle, MongoDB, Javascript, Swagger, Puppet,
+          Spring boot, Angular, Bamboo, JIRA, Weblogic 12c, Linux RHEL, Apache Camel, Agile, Scrum
         </strong>
       </p>
     </>
